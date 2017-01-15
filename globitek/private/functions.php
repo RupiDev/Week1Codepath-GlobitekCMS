@@ -22,6 +22,7 @@
   }
 
   function display_errors($errors=array()) {
+    //var_dump($errors);
     $output = '';
     if (!empty($errors)) {
       $output .= "<div class=\"errors\">";
