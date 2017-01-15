@@ -176,13 +176,13 @@
     <input type="text" name="firstname" value = "<?php echo htmlspecialchars(isset($_POST["firstname"]) ? $_POST["firstname"] : ''); ?>"><br>
 
     Last Name:<br>
-    <input type="text" name="lastname" value = "<?php echo isset($_POST["lastname"]) ? $_POST["lastname"] : ''; ?>"><br>
+    <input type="text" name="lastname" value = "<?php echo htmlspecialchars(isset($_POST["lastname"]) ? $_POST["lastname"] : ''); ?>"><br>
 
     Email:<br>
-    <input type="text" name="email" value = "<?php echo isset($_POST["email"]) ? $_POST["email"] : ''; ?>"><br>
+    <input type="text" name="email" value = "<?php echo htmlspecialchars(isset($_POST["email"]) ? $_POST["email"] : ''); ?>"><br>
 
     Username:<br>
-    <input type="text" name="username" value = "<?php echo isset($_POST["username"]) ? $_POST["username"] : ''; ?>"><br>
+    <input type="text" name="username" value = "<?php echo htmlspecialchars(isset($_POST["username"]) ? $_POST["username"] : ''); ?>"><br>
 
     <input type="submit" name="submit" value="submit"><br>
 
